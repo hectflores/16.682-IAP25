@@ -1,0 +1,142 @@
+[
+  {
+    "longitude": 23.5,
+    "latitude": 45.8,
+    "temperature": 155,
+    "humidity": 35,
+    "co2": 45
+  },
+  {
+    "longitude": 78.2,
+    "latitude": 12.4,
+    "temperature": 180,
+    "humidity": 28,
+    "co2": 65
+  },
+  {
+    "longitude": 34.9,
+    "latitude": 89.1,
+    "temperature": 95,
+    "humidity": 52,
+    "co2": 30
+  },
+  {
+    "longitude": 67.3,
+    "latitude": 34.7,
+    "temperature": 145,
+    "humidity": 41,
+    "co2": 85
+  },
+  {
+    "longitude": 12.8,
+    "latitude": 67.2,
+    "temperature": 170,
+    "humidity": 63,
+    "co2": 25
+  },
+  {
+    "longitude": 90.4,
+    "latitude": 23.9,
+    "temperature": 130,
+    "humidity": 45,
+    "co2": 70
+  },
+  {
+    "longitude": 45.6,
+    "latitude": 78.3,
+    "temperature": 200,
+    "humidity": 15,
+    "co2": 55
+  },
+  {
+    "longitude": 56.7,
+    "latitude": 91.4,
+    "temperature": 85,
+    "humidity": 58,
+    "co2": 40
+  },
+  {
+    "longitude": 83.1,
+    "latitude": 45.6,
+    "temperature": 165,
+    "humidity": 32,
+    "co2": 90
+  },
+  {
+    "longitude": 28.9,
+    "latitude": 15.8,
+    "temperature": 120,
+    "humidity": 48,
+    "co2": 20
+  },
+  {
+    "longitude": 71.5,
+    "latitude": 83.2,
+    "temperature": 190,
+    "humidity": 25,
+    "co2": 75
+  },
+  {
+    "longitude": 39.2,
+    "latitude": 59.4,
+    "temperature": 140,
+    "humidity": 55,
+    "co2": 35
+  },
+  {
+    "longitude": 94.8,
+    "latitude": 28.7,
+    "temperature": 175,
+    "humidity": 38,
+    "co2": 95
+  },
+  {
+    "longitude": 15.3,
+    "latitude": 72.9,
+    "temperature": 105,
+    "humidity": 67,
+    "co2": 50
+  },
+  {
+    "longitude": 62.4,
+    "latitude": 38.1,
+    "temperature": 160,
+    "humidity": 43,
+    "co2": 80
+  },
+  {
+    "longitude": 87.6,
+    "latitude": 64.5,
+    "temperature": 135,
+    "humidity": 29,
+    "co2": 60
+  },
+  {
+    "longitude": 33.8,
+    "latitude": 95.2,
+    "temperature": 195,
+    "humidity": 51,
+    "co2": 15
+  },
+  {
+    "longitude": 51.9,
+    "latitude": 19.6,
+    "temperature": 115,
+    "humidity": 62,
+    "co2": 85
+  },
+  {
+    "longitude": 76.2,
+    "latitude": 87.3,
+    "temperature": 150,
+    "humidity": 36,
+    "co2": 45
+  },
+  {
+    "longitude": 19.7,
+    "latitude": 42.8,
+    "temperature": 185,
+    "humidity": 47,
+    "co2": 70
+  }
+]
