@@ -27,10 +27,10 @@ void loop() {
   int humidity = dht.readHumidity();
   float temperature_c = dht.readTemperature(false); // (isFarenheit = false)
   float temperature_f = dht.readTemperature(true); // (isFarenheit = true)
-  int fire = abs(fireSensorMax - analogRead(FIRE_PIN)); // This Is Just Me Preferring to Interpret Low Readings as "No Fire" and High as "Close Fire"
+  int fireIntensity = abs(fireSensorMax - analogRead(FIRE_PIN)); // This Is Just Me Preferring to Interpret Low Readings as "No Fire" and High as "Close Fire"
 
   // Reattempt Measurement if Any Reading Fails *** CHANGE??? ***
-  if (isnan(humidity) || isnan(temperature_c) || isnan(temperature_f) || isnan(fire)) {
+  if (isnan(humidity) || isnan(temperature_c) || isnan(temperature_f) || isnan(fireIntensity)) {
     Serial.println("-----------------------"); // Separator For Readability
     Serial.println("Readings FAILED!!!");
     return;
@@ -39,7 +39,7 @@ void loop() {
   // Post-Measurement Calculations
   float heatIndex_c = dht.computeHeatIndex(temperature_c, humidity, false); // (isFarenheit = false) 
   float heatIndex_f = dht.computeHeatIndex(temperature_f, humidity, true); // (isFarenheit = true)
-  int fireRange = map(fire, fireSensorMin, fireSensorMax, 0, 3); // Set Up Proximity Sensor
+  int fireRange = map(fireIntensity, fireSensorMin, fireSensorMax, 0, 3); // Set Up Proximity Sensor
   int fireReading = 0;
   switch (fireRange) {
   case 0: // No Fire
@@ -77,7 +77,7 @@ void loop() {
   Serial.println("°F");
 
   Serial.print("Fire Detection: ");
-  Serial.print(fire);
+  Serial.print(fireIntensity);
   Serial.println(" Intensity");
   
   Serial.print("Fire Status: ");
